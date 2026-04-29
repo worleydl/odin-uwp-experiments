@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Fetch shared UWP deps
 FetchContent_Declare(UwpLibs
     GIT_REPOSITORY https://github.com/worleydl/uwp-dep.git
-    GIT_TAG adbcfbb6448ea9a9b7375b39508af20ff25ae6c7
+    GIT_TAG 1dae2bbb63c9d4cc68e3b8924ed4a93f17df8982
 )
 FetchContent_MakeAvailable(UwpLibs)
 
